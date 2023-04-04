@@ -29,11 +29,64 @@ while(true){
 
 */
 
+//creo un array vuoto
+let shoppingList = [];
+
+//creo una funzione collegata al bottone nell'html
+function addItem(){
+    //salvo in una variabile il valore del campo input
+    let item = document.getElementById('input-item').value;
+   
+
+    //se item non e' uguale a stringa vuota 
+    if(item !== ""){
+     
+        //pusho nell'array item(che e' il valore che l'utente ha messo nel campo input)
+
+        shoppingList.push(item);
+
+        //subito dopo lo svuoto
+        document.getElementById('input-item').value='';
+          
+ 
+        //dichiaro una funzione 
+        displayList();
+
+
+    }
+
+}
+
+// scrivo il codice della funzione dichiarata sopra 
+function displayList(){
+
+   //dichiaro una variabile vuota
+    let list = '';
+    //creo un ciclo for che mi cicla la lista array
+    for(let i = 0; i < shoppingList.length; i++){
+        //ad ogni iterazione aggiunge un li con il valore dell'array 
+        list += "<li>"+shoppingList[i] + "</li>";
+    };
+    //inner html della lista 
+    document.getElementById('shopping-List').innerHTML = list;
+};
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*
-const listOutput = document.getElementById('listOutput');
+//shopping list con ciclo for
 
 let shoppingList = []
 
