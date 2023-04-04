@@ -22,7 +22,7 @@ while(productList.length < itemList ){
 };
  for(i=0; i< productList.length; i++){
     console.log(productList[i]);
-    output.innerHTML= productList;
+    output.innerHTML += `<li> ${productList[i]} </li>`;
    }
    
 console.log(productList);
