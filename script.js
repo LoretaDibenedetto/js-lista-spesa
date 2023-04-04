@@ -1,3 +1,45 @@
+/*
+//ciclo while ispirato al live coding con emanuele
+
+const output = document.getElementById('shopping-List');
+
+let itemList = prompt("Quanti elementi vuoi nella lista della spesa?");
+itemList = parseInt(itemList);
+let productList = [];
+
+while(productList.length < itemList ){
+     
+  const listItem = prompt('inserisci elementi della lista:')
+   
+  if (productList.includes(itemList)){
+    alert('hai gia')
+
+  }else{
+    productList.push(listItem);
+     
+  }
+  
+};
+ for(i=0; i< productList.length; i++){
+    console.log(productList[i]);
+    output.innerHTML= productList;
+   }
+   
+console.log(productList);
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 //lista della spesa con ciclo while
 /*
 const listOutput = document.getElementById('listOutput');
@@ -28,6 +70,13 @@ while(true){
 };
 
 */
+
+
+
+
+
+
+
 
 //creo un array vuoto
 let shoppingList = [];
