@@ -52,7 +52,7 @@ function addItem(){
         //dichiaro una funzione 
         displayList();
 
-
+        
     }
 
 }
@@ -70,7 +70,6 @@ function displayList(){
     //inner html della lista 
     document.getElementById('shopping-List').innerHTML = list;
 };
-
 
 
 
