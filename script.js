@@ -28,6 +28,11 @@ while(true){
 };
 
 */
+
+
+
+
+/*
 const listOutput = document.getElementById('listOutput');
 
 let shoppingList = []
@@ -42,4 +47,4 @@ for(let i = 0; i< 10; i++){
 }
 
 console.log(shoppingList);
-
+*/
