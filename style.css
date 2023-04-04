@@ -8,6 +8,9 @@
 .container{
     margin: 90px auto;
     width: 500px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 20px;
     
 }
 
@@ -20,6 +23,7 @@
 .form-item h2{
     text-align: center;
     font-size: 34px;
+    margin:15px;
 }
 
 .form-item input{
@@ -30,7 +34,10 @@
     border-radius: 20px;
 
 }
-
+input::placeholder{
+    padding: 10px;
+    color:#8d8d8d;
+}
 
 .form-item button{
  background-color: black;
@@ -43,8 +50,8 @@
 }
 
 .form-item ol li{
- 
+    
     font-size: 23px;
     padding: 5px;
-
+    
 }
